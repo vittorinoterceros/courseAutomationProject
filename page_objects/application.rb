@@ -13,7 +13,7 @@
         @pages[:login] ||= Pages::LoginPage.new
       end
 
-      def login
+      def userHome
         @pages[:userHome] ||= Pages::UserHome.new
       end
 
