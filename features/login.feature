@@ -2,7 +2,7 @@ Feature: Login feature
 
   Scenario: successful login
     Given I am on login page
-    When I enter "redridehell@gmail.com" and "redridehell0023" as user, password
+    When I enter "githubusername" and "githubuserpassword" as user, password
     Then I am successfully login as "username"
 
 Scenario: unsuccessful login with empty email and password
